@@ -1,0 +1,39 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg #canvas{
+    background-color: ivory;
+}
+
+#canvas {
+    width: 1000px;
+    height: 700px;
+}
+
+#tooltip {
+    visibility: hidden;
+}
+
+#legend {
+    width: 500px;
+    text-align: center;
+}
+svg text {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.tile:hover {
+    stroke: black;
+    stroke-width: 2px;
+    cursor: pointer;
+
+}
+
